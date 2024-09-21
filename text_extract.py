@@ -4,6 +4,7 @@ import pytesseract
 
 #reading of image
 image = cv2.imread('C:\\Users\\Rohan\\Desktop\\pan.jpg')
+# you providing path of your desktop, so provide valid link to the dataset or provide the file of dataset
 
 if image is None:
     print('Could not open or find the image: ')
